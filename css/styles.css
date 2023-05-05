@@ -1,0 +1,221 @@
+:root{
+  /* Font */
+--main-font: Roboto, sans-serif; 
+--secondary-font: Raleway, sans-serif;
+
+  /* Text color */
+  --main-txt-cl: #434455
+  --secondary-txt-cl: #2E2F42 
+  --subtle-txt-cl: #8E8F99
+  --accent-txt-cl: #E7E9FC
+  --light-txt-cl: #F4F4FD
+  --primary-brand-txt-cl: #4D5AE5
+  --pressed-state-txt-cl: #404BBF 
+  --dark-txt-cl: #2E2F42
+  --success-txt-cl: #31D0AA 
+
+  /* Background colors */
+  --main-bg-cl: #FFFFFF
+  --light-bg-cl: #F4F4FD
+  --hero-bg-cl: #2E2F42
+}
+ul {
+  list-style: none;
+}
+a {
+  text-decoration: none;
+}
+/* Base styles */
+body {
+  background-color:var(--main-txt-cl);
+  font-family: Roboto, sans-serif; 
+}
+.link {
+  text-decoration: none;
+  color: currentColor
+}
+/**
+  |============================
+  | Header section
+  |============================
+*/
+.header-logo {
+color: var(--secondary-txt-cl);
+font-family: 'Raleway';
+font-weight: 800;
+font-size: 18px;
+line-height: 24px;
+letter-spacing: 0.03em;
+text-transform: uppercase;
+}
+.accent {
+color: var(--primary-brand-txt-cl);
+}
+.header-list {
+color: var(--secondary-txt-cl);
+font-weight: 500;
+font-size: 16px;
+line-height: 24px;
+letter-spacing: 0.02em;
+}
+.header-contacts {
+color: var(--main-txt-cl);
+font-weight: 400;
+font-size: 16px;
+line-height: 24px;
+letter-spacing: 0.02em;
+}
+
+/**
+  |============================
+  | Hero section
+  |============================
+*/
+.hero {
+background-color: #2E2F42; 
+}
+.hero-title{
+ color: #FFFFFF;
+font-weight: 700;
+font-size: 56px;
+line-height: 60px;
+letter-spacing: 0.02em;
+text-align: center;
+}
+.btn:hover {
+background-color: #404BBF;
+}
+.btn:active 
+.btn:focus {
+background-color:#4D5AE5;
+border-radius: 4px;
+padding: 16px 32px 16px 32px;
+}
+.btn {
+  font-family: 'Roboto';
+font-weight: 500;
+font-size: 16px;
+line-height: 24px;
+align-items: center;
+letter-spacing: 0.04em;
+box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+border-radius: 4px;
+}
+
+/**
+  |============================
+  | List section 
+  |============================
+*/
+.list {
+  font-family: 'Roboto';
+  text-decoration: none;
+}
+.list-title {
+color: var(--dark-txt-cl);
+font-weight: 500;
+font-size: 20px;
+line-height: 25px;
+letter-spacing: 0.02em
+}
+.list-text {
+color: var(--main-txt-cl);
+font-weight: 400;
+font-size: 16px;
+line-height: 24px;
+letter-spacing: 0.02em;
+
+}
+/**
+  |============================
+  | About section
+  |============================
+*/
+.about-title {
+font-family: Roboto;
+color: var(--dark-txt-cl);
+font-weight: 700;
+font-size: 36px;
+line-height: 40px;
+text-align: center;
+}
+.about-pic {
+height: 300px;
+width: 360px;
+border-radius: 0px;
+}
+/**
+  |============================
+  | Team section
+  |============================
+*/
+.team-title {
+font-family: Roboto;
+color: var(--dark-txt-cl);
+font-weight: 700;
+font-size: 36px;
+line-height: 40px;
+text-align: center;
+}
+.team-pic {
+width: 264px;
+height: 260px;
+}
+.team-name {
+color: var(--dark-txt-cl);
+font-weight: 500;
+font-size: 20px;
+line-height: 24px;
+text-align: center;
+}
+.team-prof {
+color: var(--main-txt-cl);
+font-weight: 400;
+font-size: 16px;
+line-height: 24px;
+text-align: center;
+}
+/**
+  |============================
+  | Footer section   
+  |============================
+*/
+footer {
+background-color:#2E2F42;
+color: var(--accent-txt-cl);
+} 
+.footer-logo {
+color: var(--light-txt-cl);
+font-family: 'Raleway';
+font-style: normal;
+font-weight: 800;
+
+font-size: 18px;
+line-height: 21px;
+letter-spacing: 0.03em;
+text-transform: uppercase;
+}
+.footer-txt {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: 0.02em;
+}
+.btn-nav:hover {
+  background-color: var(--primary-brand-txt-cl);
+  }
+  .btn-nav:active 
+  .btn-nav:focus {
+  background-color: var(--primary-brand-txt-cl);
+  border-radius: 4px;
+  padding: 12px 24px 12px 24px;
+  }
+  .btn-nav {
+  font-family: 'Roboto';
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: 0.04em;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  border-radius: 4px;
+  }
