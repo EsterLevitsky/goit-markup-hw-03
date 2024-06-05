@@ -78,6 +78,7 @@ img {
 /* Header section */
 .header {
     padding: 24px 0;
+    border-bottom: 1px solid #e7e9fc
 }
 .header-container {
   display: flex;
@@ -86,24 +87,25 @@ img {
 .header-nav {
   display: flex;
 margin-right: auto;
+align-items: center;
 }
 .header-logo {
 font-family: Raleway, sans-serif;
-        font-weight: 700;
-        font-size: 18px;
-        line-height: 1.17;
-        letter-spacing: 0.03em;
-        text-transform: uppercase;
-        color: #4D5AE5;
-        margin-right: 76px;
+ font-weight: 700;
+ font-size: 18px;
+line-height: 1.17;
+letter-spacing: 0.03em;
+ text-transform: uppercase;
+ color: #4D5AE5;
+margin-right: 76px;
 }
 
 .logo-part {   
-    color: #2E2F42;
+color: #2E2F42;
 }
 .nav-link {
-  display: flex;
-  gap: 40px;
+display: flex;
+gap: 40px;
 }
 
 .nav-link-content {
@@ -161,7 +163,8 @@ letter-spacing: 0.02em;
 text-align: center;
 color: #FFFFFF;
 margin-bottom: 48px;
-min-width: 496px;
+/* min-width: 496px; */
+max-width: 496px;
 }
 .btn {
   font-family: "Roboto", sans-serif;
@@ -181,6 +184,7 @@ box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
 background: #4D5AE5;
 border: none;
 padding: 16px 32px;
+min-width: 169px;
 }
 .btn:hover,
 .btn:active,
@@ -238,8 +242,11 @@ color: #434455;
   flex-wrap: wrap;
   gap: 24px;
   text-align: center;
+  margin-right: 24px;
 }
-
+.team-list:last-child {
+  margin-right: 0;
+}
 .team-item {
  background-color: #FFFFFF;
  border-radius: 0 0 4px 4px;
@@ -249,10 +256,14 @@ height: 380px;
 box-shadow: 0 2px 1px 0 rgba(46, 47, 66, 0.08), 0 1px 1px 0 rgba(46, 47, 66, 0.16), 0 1px 6px 0 rgba(46, 47, 66, 0.08);
 width: calc((100% - 3 * 24px) / 4);
 }
+
 .team-image {
   margin: 0 auto;
-  margin-bottom: 32px;
 }
+.team-desc {
+padding: 32px 0;
+}
+
 .team-title {
     font-weight: 500;
     font-size: 20px;
@@ -260,6 +271,7 @@ width: calc((100% - 3 * 24px) / 4);
     letter-spacing: 0.02em;
     color: #2E2F42;
     margin-bottom: 8px;
+    text-align: center; 
 }
 .team-text {
     font-weight: 400;
@@ -267,6 +279,7 @@ width: calc((100% - 3 * 24px) / 4);
     line-height: 1.50;
     letter-spacing: 0.02em;
     color: #434455;
+    text-align: center; 
 }
 
 /* Our portfolio */
@@ -332,6 +345,8 @@ line-height: 1.17;
 letter-spacing: 0.03em;
 text-transform: uppercase;
 color: #4D5AE5;
+display: inline-block;
+margin-bottom: 16px;
 }
 .logo-part-footer {
 color:#F4F4FD;
