@@ -314,11 +314,11 @@ width: calc((100% - 2 * 24) / 3);
 border-bottom: 1px solid #E7E9FC;
 border-left: 1px solid #E7E9FC;
 border-right: 1px solid #E7E9FC;
-border-top: none; 
 }
 .portfolio-wrapper {
   padding: 32px 16px;
   border: 1px solid #e7e9fc;
+  border-top: none;
 }
 .portfolio-title {
     font-weight: 500;
