@@ -126,7 +126,10 @@ color:  #2E2F42;
 .address {
   font-style: normal;
   align-items: center;
+  display: flex;
+  border-top: 24px;
   gap: 40px;
+  padding: 24px 0;
 }
 
 .address-link {
@@ -311,6 +314,7 @@ width: calc((100% - 2 * 24) / 3);
 border-bottom: 1px solid #E7E9FC;
 border-left: 1px solid #E7E9FC;
 border-right: 1px solid #E7E9FC;
+border-top: none; 
 }
 .portfolio-wrapper {
   padding: 32px 16px;
