@@ -103,10 +103,10 @@ margin-right: 76px;
 color: #2E2F42;
 }
 .nav-link {
-display: block;
+display: flex;
 border-top: 24px;
-padding-bottom: 24px;
 gap: 40px;
+padding: 24px 0;
 }
 
 .nav-link-content {
@@ -313,7 +313,8 @@ border-left: 1px solid #E7E9FC;
 border-right: 1px solid #E7E9FC;
 }
 .portfolio-wrapper {
-
+  padding: 32px 16px;
+  border: 1px solid #e7e9fc;
 }
 .portfolio-title {
     font-weight: 500;
