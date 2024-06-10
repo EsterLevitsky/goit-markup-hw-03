@@ -309,11 +309,7 @@ padding: 32px 0;
 }
 .portfolio-item {
   width: 360px;
-height: 420px;
 width: calc((100% - 2 * 24) / 3);
-border-bottom: 1px solid #E7E9FC;
-border-left: 1px solid #E7E9FC;
-border-right: 1px solid #E7E9FC;
 }
 .portfolio-wrapper {
   padding: 32px 16px;
